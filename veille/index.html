@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille Produit — Archive</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: #ffffff; color: #1a1a1a; line-height: 1.6; }
+
+    .header { padding: 60px 40px 40px; max-width: 900px; margin: 0 auto; }
+    .header h1 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .header .subtitle { font-size: 1.1rem; color: #666; font-weight: 400; }
+
+    .list { max-width: 900px; margin: 0 auto; padding: 0 40px 60px; }
+
+    .list-year { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #aaa; margin-bottom: 16px; margin-top: 40px; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+    .list-year:first-child { margin-top: 0; }
+
+    .list-item { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; border: 1px solid #eee; border-radius: 12px; margin-bottom: 12px; text-decoration: none; color: inherit; transition: box-shadow 0.2s, border-color 0.2s; }
+    .list-item:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-color: #ddd; }
+
+    .list-item .item-left { display: flex; flex-direction: column; gap: 4px; }
+    .list-item .item-date { font-size: 1rem; font-weight: 600; color: #1a1a1a; }
+    .list-item .item-desc { font-size: 0.85rem; color: #888; }
+
+    .list-item .item-right { display: flex; align-items: center; gap: 16px; }
+    .list-item .item-count { padding: 4px 14px; background: #e8f5e3; color: #2d5016; border-radius: 16px; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+    .list-item .item-arrow { color: #ccc; font-size: 1.2rem; line-height: 1; }
+
+    .footer { text-align: center; padding: 60px 40px; color: #bbb; font-size: 0.8rem; border-top: 1px solid #f0f0f0; }
+
+    @media (max-width: 768px) {
+      .header { padding: 40px 20px 24px; }
+      .header h1 { font-size: 1.8rem; }
+      .list { padding: 0 20px 40px; }
+      .list-item { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .list-item .item-right { width: 100%; justify-content: space-between; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Veille Produit</h1>
+    <div class="subtitle">Archive des veilles hebdomadaires</div>
+  </div>
+
+  <div class="list">
+
+    <div class="list-year">2026</div>
+
+    <a class="list-item" href="veille-2026-04-02.html">
+      <div class="item-left">
+        <div class="item-date">2 avril 2026</div>
+        <div class="item-desc">Tiny houses, chalets &amp; mobil-homes en France — Prix, constructeurs, réglementation, tendances &amp; événements</div>
+      </div>
+      <div class="item-right">
+        <span class="item-count">25 articles</span>
+        <span class="item-arrow">&#8594;</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">Généré automatiquement par Claude Code</div>
+
+</body>
+</html>
