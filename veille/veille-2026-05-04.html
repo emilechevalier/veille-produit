@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veille Produit - Semaine du 4 mai 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: #ffffff; color: #1a1a1a; line-height: 1.6; }
+
+  .header { padding: 60px 40px 40px; max-width: 1200px; margin: 0 auto; }
+  .header h1 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .header .subtitle { font-size: 1.1rem; color: #666; font-weight: 400; }
+  .header .date-badge { display: inline-block; margin-top: 16px; padding: 6px 16px; background: #f5f5f0; border-radius: 20px; font-size: 0.85rem; color: #555; }
+
+  .stats { display: flex; gap: 32px; padding: 0 40px 40px; max-width: 1200px; margin: 0 auto; flex-wrap: wrap; }
+  .stat { padding: 24px 32px; background: #fafaf7; border-radius: 12px; min-width: 140px; }
+  .stat .number { font-size: 2rem; font-weight: 700; color: #2d5016; }
+  .stat .label { font-size: 0.85rem; color: #888; margin-top: 4px; }
+
+  .section-title { padding: 40px 40px 20px; max-width: 1200px; margin: 0 auto; font-size: 1.4rem; font-weight: 600; color: #1a1a1a; border-top: 1px solid #eee; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; padding: 0 40px 40px; max-width: 1200px; margin: 0 auto; }
+
+  .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 28px; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+  .card .badge { display: inline-block; padding: 4px 12px; border-radius: 16px; font-size: 0.75rem; font-weight: 600; margin-bottom: 12px; }
+  .badge-tiny { background: #e8f5e3; color: #2d5016; }
+  .badge-chalet { background: #e3ecf5; color: #163a50; }
+  .badge-mobil { background: #f5ece3; color: #503a16; }
+  .badge-reglementation { background: #f5e3e3; color: #501616; }
+  .badge-tendances { background: #f0e3f5; color: #3a1650; }
+  .badge-evenement { background: #e3f5f0; color: #165038; }
+  .card h3 { font-size: 1.05rem; font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
+  .card h3 a { color: #1a1a1a; text-decoration: none; }
+  .card h3 a:hover { color: #2d5016; }
+  .card .meta { font-size: 0.8rem; color: #999; margin-bottom: 12px; }
+  .card .summary { font-size: 0.92rem; color: #555; line-height: 1.7; }
+
+  .back-link { display: inline-flex; align-items: center; gap: 8px; padding: 0 40px; max-width: 1200px; margin: 0 auto; font-size: 0.85rem; color: #888; text-decoration: none; }
+  .back-link:hover { color: #2d5016; }
+
+  .footer { text-align: center; padding: 60px 40px; color: #bbb; font-size: 0.8rem; border-top: 1px solid #f0f0f0; margin-top: 20px; }
+
+  @media (max-width: 768px) {
+    .header { padding: 40px 20px 24px; }
+    .header h1 { font-size: 1.8rem; }
+    .stats { padding: 0 20px 24px; gap: 12px; }
+    .grid { grid-template-columns: 1fr; padding: 0 20px 24px; gap: 16px; }
+    .section-title { padding: 24px 20px 12px; }
+    .back-link { padding: 0 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- BACK -->
+<div style="max-width:1200px;margin:0 auto;padding:24px 40px 0;">
+  <a class="back-link" href="index.html" style="padding:0;">&#8592; Toutes les veilles</a>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>Veille Produit</h1>
+  <p class="subtitle">Tiny houses, chalets &amp; mobil-homes — Marché français</p>
+  <span class="date-badge">Semaine du 4 mai 2026</span>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat">
+    <div class="number">25</div>
+    <div class="label">Articles collectés</div>
+  </div>
+  <div class="stat">
+    <div class="number">4</div>
+    <div class="label">🏠 Tiny House</div>
+  </div>
+  <div class="stat">
+    <div class="number">2</div>
+    <div class="label">🏔️ Chalet</div>
+  </div>
+  <div class="stat">
+    <div class="number">4</div>
+    <div class="label">🚐 Mobil-home</div>
+  </div>
+  <div class="stat">
+    <div class="number">3</div>
+    <div class="label">📋 Réglementation</div>
+  </div>
+  <div class="stat">
+    <div class="number">5</div>
+    <div class="label">📈 Tendances</div>
+  </div>
+  <div class="stat">
+    <div class="number">7</div>
+    <div class="label">🎪 Événement</div>
+  </div>
+</div>
+
+<!-- TINY HOUSE -->
+<div class="section-title">🏠 Tiny House</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-tiny">🏠 Tiny House</span>
+    <h3><a href="https://planete-deco.fr/2026/04/30/on-a-trouve-la-tiny-house-qui-ressemble-a-une-petite-maison-ideale" target="_blank" rel="noopener">On a trouvé la tiny house qui ressemble à une petite maison idéale</a></h3>
+    <div class="meta">Planète Déco &mdash; 30 avril 2026</div>
+    <p class="summary">Un article de Planète Déco du 30 avril 2026 met en avant une tiny house conçue pour ressembler à une petite maison traditionnelle, avec toutes les commodités modernes dans un espace optimisé. Ce modèle illustre l'évolution du secteur vers des habitats compacts mais confortables, ciblant les personnes souhaitant accéder à la propriété de manière alternative.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tiny">🏠 Tiny House</span>
+    <h3><a href="https://www.boximby.fr/prix-tiny-house-2026/" target="_blank" rel="noopener">Prix d'une Tiny House en France : guide complet 2026</a></h3>
+    <div class="meta">Boximby &mdash; 2026</div>
+    <p class="summary">Le marché de la tiny house connaît une croissance significative en 2026, avec une hausse de 20 % des prix des modèles 30-40 m² familiaux par rapport à 2024. Le prix moyen d'une tiny house équipée de 15 à 20 m² est d'environ 55 000 €, et les fourchettes s'échelonnent entre 15 000 € et 130 000 € selon les options et finitions. La tendance est à la montée en gamme avec des matériaux écologiques et des équipements domotiques.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tiny">🏠 Tiny House</span>
+    <h3><a href="https://www.tinyhouse-baluchon.fr/" target="_blank" rel="noopener">Baluchon cesse la fabrication de tiny houses et se réoriente</a></h3>
+    <div class="meta">Tiny House Baluchon &mdash; Début 2026</div>
+    <p class="summary">Tiny House Baluchon, l'un des pionniers du secteur en France, a annoncé début 2026 l'arrêt de son activité de fabrication. La marque se repositionne sous le nom Baluchon Solutions, se consacrant désormais exclusivement à l'accompagnement de projets d'habitats réversibles. Ce pivot illustre la transformation du marché vers des services de conseil et d'ingénierie de projet.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tiny">🏠 Tiny House</span>
+    <h3><a href="https://www.lesfrenchies.fr/fabricant-constructeur-tiny-houses/" target="_blank" rel="noopener">SELVEA / Les Frenchies : premier constructeur de tiny houses en France</a></h3>
+    <div class="meta">Les Frenchies &mdash; 2026</div>
+    <p class="summary">SELVEA, producteur des tiny houses Les Frenchies, se positionne comme le plus important constructeur de tiny houses en France en 2026. La marque propose des habitats compacts entre 50 000 € et 100 000 € clé en main, livrés sur toute la France, avec une gamme allant de la micro-maison de 15 m² aux modèles familiaux de 40 m². L'entreprise mise sur des matériaux biosourcés et une isolation performante 4 saisons.</p>
+  </div>
+
+</div>
+
+<!-- CHALET -->
+<div class="section-title">🏔️ Chalet</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-chalet">🏔️ Chalet</span>
+    <h3><a href="https://camping-la-ferme.com/en/opening-season-2026-camping-castellane/" target="_blank" rel="noopener">Camping La Ferme de Castellane : nouveau Chalet Confort Plus avec jacuzzi</a></h3>
+    <div class="meta">Camping La Ferme de Castellane &mdash; Saison 2026</div>
+    <p class="summary">Le Camping La Ferme de Castellane, dans les Gorges du Verdon, introduit pour la saison 2026 un nouveau Chalet Confort Plus de 26,5 m² équipé d'un jacuzzi privatif, pouvant accueillir jusqu'à 5 personnes à partir de 100 €/nuit. Ce type d'investissement illustre la tendance des campings à monter en gamme avec des chalets tout équipés pour rivaliser avec l'hôtellerie traditionnelle.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-chalet">🏔️ Chalet</span>
+    <h3><a href="https://www.quadrapol.com/en/" target="_blank" rel="noopener">Quadrapol : tiny houses, studios et chalets en bois clés en main</a></h3>
+    <div class="meta">Quadrapol &mdash; 2026</div>
+    <p class="summary">Quadrapol propose en 2026 une gamme complète de tiny houses, studios et chalets en bois clés en main, éco-responsables, destinée aux particuliers et aux campings. L'entreprise se positionne sur le marché des petits habitats de qualité avec des livraisons partout en France et en Europe. Ses chalets de jardin et d'hébergement sont pensés pour une installation rapide et un usage 4 saisons.</p>
+  </div>
+
+</div>
+
+<!-- MOBIL-HOME -->
+<div class="section-title">🚐 Mobil-home</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-mobil">🚐 Mobil-home</span>
+    <h3><a href="https://www.mobilehomebusiness.eu/2026/03/30/mobil-home-rideau-sharpens-its-focus-on-residential-market/" target="_blank" rel="noopener">Mobil Home Rideau se repositionne sur le marché résidentiel européen</a></h3>
+    <div class="meta">Mobile Home Business &mdash; 30 mars 2026</div>
+    <p class="summary">Le fabricant français Mobil Home Rideau annonce en mars 2026 une réorientation stratégique vers le marché résidentiel en Europe, en réponse à la demande croissante pour des mobil-homes 4 saisons utilisés comme résidence principale ou secondaire. Cette décision reflète l'évolution du secteur, qui dépasse désormais le seul usage touristique pour s'imposer comme alternative à l'immobilier traditionnel.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-mobil">🚐 Mobil-home</span>
+    <h3><a href="https://annuaire-du-tourisme.net/mobil-home-de-luxe-un-investissement-rentable-en-2026/" target="_blank" rel="noopener">Mobil-home de luxe : un investissement rentable en 2026 ?</a></h3>
+    <div class="meta">Annuaire du Tourisme &mdash; 2026</div>
+    <p class="summary">Le segment premium des mobil-homes progresse rapidement en 2026, porté par les aspirations à plus de liberté et le renouveau du tourisme de plein air. Un mobil-home neuf coûte en moyenne entre 28 900 € et 64 900 €, avec des redevances d'emplacement annuelles variant de 2 000 € à 7 000 € selon les sites. Les fabricants proposent désormais des modèles avec domotique, terrasses en bois et vitrage panoramique.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-mobil">🚐 Mobil-home</span>
+    <h3><a href="https://mobildiscount.fr/mobilhome-francais-neufs/1651-mobil-home-irm-modele-pivoine-2026.html" target="_blank" rel="noopener">IRM Pivoine 2026 : le mobil-home résidentiel 4 saisons</a></h3>
+    <div class="meta">MobilDiscount / IRM &mdash; 2026</div>
+    <p class="summary">IRM commercialise son modèle Pivoine 2026 pour le marché résidentiel 4 saisons, proposant jusqu'à 40 m² avec 2 à 3 chambres, une isolation renforcée et une cuisine entièrement aménagée. Ce type de modèle répond à la demande croissante pour des résidences mobiles utilisables toute l'année, notamment comme résidence principale pour les petits budgets ou alternative à la location immobilière.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-mobil">🚐 Mobil-home</span>
+    <h3><a href="https://10minhotel.com/blog/2026/04/10/le-camping-nouveau-luxe-des-vacances-francaises/" target="_blank" rel="noopener">Le camping, nouveau luxe des vacances françaises</a></h3>
+    <div class="meta">Le 10 Minutes Hôtelier &mdash; 10 avril 2026</div>
+    <p class="summary">En avril 2026, la presse hôtelière observe que le camping s'est imposé comme une option de vacances premium pour les Français. Avec des mobil-homes dotés de jacuzzis, terrasses en bois et équipements domotiques, le secteur rivalise désormais avec l'hôtellerie traditionnelle et attire une clientèle aisée. Certains établissements 5 étoiles affichent des tarifs supérieurs à 300 €/nuit.</p>
+  </div>
+
+</div>
+
+<!-- RÉGLEMENTATION -->
+<div class="section-title">📋 Réglementation</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-reglementation">📋 Réglementation</span>
+    <h3><a href="https://tinyhousefrance.org/reglementation-tiny-house-france/" target="_blank" rel="noopener">Réglementation Tiny House France 2026 : terrain, permis, PLU, fiscalité</a></h3>
+    <div class="meta">TinyHouseFrance.org &mdash; 2026</div>
+    <p class="summary">La France ne dispose pas encore de cadre juridique unifié pour les tiny houses en 2026 : la réglementation dépend du caractère mobile ou fixe de l'habitat et du PLU local. En dessous de 20 m², une déclaration préalable suffit ; au-delà, un permis de construire est requis. Certaines communes ont créé des zones STECAL pour accueillir des habitats légers, et la fiscalité varie selon le statut réel de la construction.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-reglementation">📋 Réglementation</span>
+    <h3><a href="https://lareleveetlapeste.fr/france-les-deputes-votent-en-faveur-de-lhabitat-leger-pour-les-paysans/" target="_blank" rel="noopener">Les députés votent en faveur de l'habitat léger pour les paysans</a></h3>
+    <div class="meta">La Relève et la Peste &mdash; 2026</div>
+    <p class="summary">Les députés ont voté en 2026 en faveur de la légalisation de l'installation d'habitats réversibles pour les paysans sur leurs terres agricoles. Cet amendement permet aux agriculteurs de vivre à moindre coût sur leur ferme sans artificialiser les sols, une avancée portée par la Fédération de l'Habitat Réversible et Mobile. La loi doit encore être adoptée définitivement.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-reglementation">📋 Réglementation</span>
+    <h3><a href="https://questions.assemblee-nationale.fr/q17/17-2950QE.htm" target="_blank" rel="noopener">Question parlementaire : l'habitat réversible comme solution à la crise du logement</a></h3>
+    <div class="meta">Assemblée nationale &mdash; 2026</div>
+    <p class="summary">Une question écrite a été posée à l'Assemblée nationale sur l'habitat réversible en tant que solution écologique à la crise du logement. Cette démarche s'inscrit dans le contexte de la prise de conscience que les habitats légers et réversibles peuvent constituer une réponse à la fois écologique et économique aux besoins de logement, notamment dans les zones rurales ou sous tension.</p>
+  </div>
+
+</div>
+
+<!-- TENDANCES -->
+<div class="section-title">📈 Tendances</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-tendances">📈 Tendances</span>
+    <h3><a href="https://www.financement-camping.fr/actualites-coventis/tendances-tourisme-france-ete-2026/" target="_blank" rel="noopener">Été 2026 : les Français repartent en vacances, plus près et plus malin</a></h3>
+    <div class="meta">Coventis &mdash; 2026</div>
+    <p class="summary">L'étude Coventis pour l'été 2026 révèle que 64 % des Français prévoient de prendre des vacances, soit +9 points vs 2025. Parmi eux, 61 % resteront en France, portés par le contexte géopolitique et le coût croissant des voyages à l'étranger. Ce fort retour vers l'hexagone est un signal très positif pour le marché du camping et de l'hébergement plein air français.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tendances">📈 Tendances</span>
+    <h3><a href="https://www.pole-implantation-tourisme.org/chiffres-marche-camping-france-2026/" target="_blank" rel="noopener">Le marché du camping en France : chiffres clés et tendances 2026</a></h3>
+    <div class="meta">Pôle Implantation Tourisme &mdash; 2026</div>
+    <p class="summary">Le marché français du camping se concentre : si le nombre total de terrains diminue légèrement, le nombre d'emplacements et la qualité de service progressent de manière spectaculaire. La tendance est à la montée en gamme, avec des équipements qualitatifs, des espaces bien-être, de la restauration et des activités enrichissant l'expérience des vacanciers.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tendances">📈 Tendances</span>
+    <h3><a href="https://www.cabinetalliances.fr/2026/01/11/tourisme-2026-nouvelles-tendances-des-hebergements-et-des-loisirs-entre-slow-travel-experience-et-bien-etre/" target="_blank" rel="noopener">Tourisme 2026 : slow travel, expérience et bien-être au cœur des tendances</a></h3>
+    <div class="meta">Cabinet Alliances &mdash; 11 janvier 2026</div>
+    <p class="summary">Le cabinet Alliances identifie pour 2026 les grandes tendances du tourisme français : slow travel, immersion dans la nature, bien-être et hébergements insolites. Le glamping et les hébergements alternatifs (tiny houses, cabanes, dômes) s'imposent comme les formats les plus dynamiques du secteur, portés par une demande en quête d'authenticité et d'expériences uniques.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tendances">📈 Tendances</span>
+    <h3><a href="https://bigmedia.bpifrance.fr/nos-actualites/hotellerie-en-2026-entre-hyper-luxe-ia-et-resilience-le-secteur-du-tourisme-evolue" target="_blank" rel="noopener">Hôtellerie en 2026 : hyper-luxe, IA et résilience</a></h3>
+    <div class="meta">BpiFrance Big Média &mdash; 2026</div>
+    <p class="summary">BpiFrance analyse les grandes mutations du secteur touristique en 2026 : l'hyper-luxe, l'intelligence artificielle et la résilience comme moteurs de transformation. Les établissements combinant hôtellerie, coworking et coliving atteignent plus de 80 % d'occupation annuelle, contre 62 % pour l'hôtellerie classique. Cette évolution concerne aussi l'hôtellerie de plein air haut de gamme.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-tendances">📈 Tendances</span>
+    <h3><a href="https://www.camping-insolite.fr/guide-des-vacances-plein-air-en-famille-pour-lete-2026" target="_blank" rel="noopener">Hébergements insolites 2026 : dômes transparents, cabanes perchées et pods flottants</a></h3>
+    <div class="meta">CampingInsolite.fr &mdash; 2026</div>
+    <p class="summary">Le guide des vacances plein air 2026 liste les nouvelles tendances en hébergements insolites : dômes transparents en Occitanie, cabanes perchées en Auvergne et pods flottants en Bretagne. Ces formats innovants répondent à la demande croissante pour des séjours uniques combinant nature et confort, avec des tarifs allant de 35 € à 120 €/nuit et une réservation recommandée 4 à 6 mois à l'avance.</p>
+  </div>
+
+</div>
+
+<!-- ÉVÉNEMENTS -->
+<div class="section-title">🎪 Événements</div>
+<div class="grid">
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://www.salon-iode.fr/" target="_blank" rel="noopener">Salon IODE 2026 — Vannes, 27-28 janvier</a></h3>
+    <div class="meta">Salon IODE &mdash; 27-28 janvier 2026 &mdash; Vannes</div>
+    <p class="summary">Le Salon IODE s'est tenu les 27 et 28 janvier 2026 à Vannes, réunissant plus de 220 exposants et 2 500 professionnels de l'hôtellerie de plein air. Événement de référence du secteur, il a été l'occasion de présenter les dernières innovations en matière d'hébergements locatifs, d'équipements et de services pour campings.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://pro.visitparisregion.com/promotion-btob/agenda-des-actions-de-promotion/salon-destinations-nature-2026/12-au-15-mars-2026" target="_blank" rel="noopener">Salon Destinations Nature 2026 — Paris, 12-15 mars</a></h3>
+    <div class="meta">Destinations Nature &mdash; 12-15 mars 2026 &mdash; Paris Expo Porte de Versailles</div>
+    <p class="summary">Le salon Destinations Nature s'est tenu du 12 au 15 mars 2026 à Paris Expo Porte de Versailles, dédié à la randonnée, aux activités outdoor, aux hébergements alternatifs et aux loisirs nature. L'événement a mis en avant les tendances du tourisme de plein air, avec un focus sur le glamping et les hébergements éco-responsables.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://uk.tourisme93.com/recreational-vehicule-fair-paris.html" target="_blank" rel="noopener">VDL 2026 — 60e Salon Véhicules de Loisirs au Bourget, 26 sept – 4 oct</a></h3>
+    <div class="meta">Salon VDL &mdash; 26 septembre – 4 octobre 2026 &mdash; Le Bourget</div>
+    <p class="summary">La 60e édition du Salon VDL (Véhicules de Loisirs) se tient du 26 septembre au 4 octobre 2026 au Bourget, près de Paris. Événement incontournable du secteur, il rassemble tous les acteurs du camping-car, du mobil-home et des véhicules de loisirs, avec les dernières innovations technologiques et les nouveaux modèles des fabricants français et européens.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://www.salon-atlantica.fr/" target="_blank" rel="noopener">Salon Atlantica 2026 — Niort, 6-8 octobre</a></h3>
+    <div class="meta">Salon Atlantica &mdash; 6-8 octobre 2026 &mdash; Niort</div>
+    <p class="summary">Le Salon Atlantica se tiendra du 6 au 8 octobre 2026 à Niort, dédié aux équipements et services pour l'hôtellerie de plein air. Cette édition mettra en avant les tendances en matière d'hébergements touristiques, piscines et spas, équipements de loisirs, et services pour campings et parcs résidentiels de loisirs.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://www.f-hr.org/" target="_blank" rel="noopener">5e Journées Nationales de l'Habitat Léger — 26-27 septembre 2026</a></h3>
+    <div class="meta">Fédération de l'Habitat Réversible et Mobile &mdash; 26-27 septembre 2026</div>
+    <p class="summary">Les Journées Nationales de l'Habitat Léger fêtent leur 5e édition les 26 et 27 septembre 2026. Organisées par la Fédération de l'Habitat Réversible et Mobile (FHR), ces journées rassemblent constructeurs, porteurs de projets et institutions autour des enjeux de l'habitat léger, réversible et mobile en France : réglementation, financement, urbanisme et techniques de construction.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://www.salonsett.com/fr/" target="_blank" rel="noopener">Salon SETT 2026 — Montpellier, 3-5 novembre</a></h3>
+    <div class="meta">Salon SETT &mdash; 3-5 novembre 2026 &mdash; Montpellier</div>
+    <p class="summary">Le Salon SETT se tiendra du 3 au 5 novembre 2026 à Montpellier, organisé par la Fédération de l'Hôtellerie de Plein Air Occitanie. Il rassemblera les professionnels autour de quatre pôles : hébergements locatifs, jeux et loisirs, piscines et bien-être, et services pour campings. Un salon incontournable pour les acteurs du glamping et de l'hébergement touristique du Sud de la France.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge badge-evenement">🎪 Événement</span>
+    <h3><a href="https://www.equiphpa.com/" target="_blank" rel="noopener">Equip'HPA 2026 — Le Touquet, 25-26 novembre</a></h3>
+    <div class="meta">Equip'HPA &mdash; 25-26 novembre 2026 &mdash; Le Touquet-Paris-Plage</div>
+    <p class="summary">Equip'HPA se tiendra les 25 et 26 novembre 2026 au Touquet-Paris-Plage, salon professionnel dédié aux équipements de tourisme et des collectivités. L'événement rassemble les acteurs de l'hôtellerie de plein air, du glamping et des hébergements insolites, et constitue l'un des derniers rendez-vous professionnels de l'année pour le secteur.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">Généré automatiquement par Claude Code — Veille hebdomadaire du 4 mai 2026</div>
+
+</body>
+</html>
